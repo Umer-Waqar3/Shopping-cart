@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="icon" type="image/x-icon" href="images/93d910850bf76debe69a0ad7a5a76141--art-students-performing-arts.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/Home page.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+</head>
+<body>
+   <!--Nav bar-->
+
+   <div id="navbar">
+    <div class="nav2">
+      <div class="logo">
+          <a  href="Home page.html"><img src="data:image/webp;base64,UklGRhACAABXRUJQVlA4TAQCAAAvg8AFEPcgEEhC2V90hfkfEIEAYcF/pAQJMJoGDmDZth0lug+xiQ0S1ABCzvznaRKwsP4j+j8B+o0DvLXlqy1strMw+v/oteil/0ghlr21uXtt5w0Udh/+z6XNbK+0M6u2NAFB2zttKwCzfsC9tvN22gg8fsG2B2DQP/cAYvtzzpVZfZF0qc3qS+Z2MrPDdY0ZeKnQB2AKRc83zK9M1wPjY52r2VHS3nY6WdLJWdIlnKVPywLwVmEgPfmPN5MCyT4RSPffqS6Wrq6WvUtylj8t8RHwBYH83Cbik6yXFMj3X7HdvpHOZlbVN+lqZhepMbPDXXJm1iwYgKC8B8ZWegFDgnl6SI8IQfLA2EoB8N/RZ21W3SXpYHaWTmYHSXI7s2PZA5hVOMCgzyfQJmIrSX2ih1GSwgzDV1ziaHbSp0tUZo2ak5lVTuUz8CiJ0CY0wjMR9PlKRPDyPRCDvnLLXYrMdpeDmR0uWhiAQaUwKx0gJLoimJ8jMD6VX6nJXRd8ukZLfYTYfssv+AxepX+pMqudVhyAl4ojtKkRnitEmIIW/qWT2UErPoC3ygfoEx3QrtDDqO00Zna4S5f6VjSzNKgDhlZ6RRi0ggfGVnpO3RbkLFs1BYEV1JOf2zUUyEa/BbmMnXM+rqI+M3mtopDhtQk1zsx27q78m3X06IEpKLmCfADm0Eo=" alt=""></a>
+  
+      </div>
+
+      <div class="lin">
+
+          <div class="lin2">
+              <a class="n-link"  href="Home page.html">Home</a>
+          <a class="n-link"  href="products.html">Shop</a>
+          <a class="n-link"  href="#">About</a>
+          <div class="dropdown">
+              <a class="n-link"  href="#">Latest</a>
+              <div class="dropdown-content">
+                  <a href="products.html">Product List</a>
+                  <a href="product.html">Product Details</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a class="n-link"  href="#">Blog</a>
+              <div class="dropdown-content">
+                  <a href="#">Blog</a>
+                  <a href="#">Blog Details</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a class="n-link"  href="#">Pages</a>
+              <div class="dropdown-content">
+                  <a href="login.html">login</a>
+                  <a href="cart.html">Cart</a>
+                  <a href="#">Element</a>
+                  <a href="#">Confirmation</a>
+                  <a href="#">Product Checkout</a>
+              </div>
+            </div>
+            <a class="n-link"  href="#">Contact</a>
+          </div>
+          
+      </div>
+      <div class="right-nav">
+          <a class="n-link" style="padding:0px" href="#"><i class="bi bi-search"></i></a>
+          <a class="n-link"  href="#"><i class="bi bi-person"></i></a>
+          <a class="n-link"  href="cart.html"><i class="bi bi-cart"></i></a>
+      </div>
+  </div>
+  <div class="lin1">
+    <div class="lin1b">
+    <a class="bars" onclick="lin1l()">MENU <i class="bi bi-list"></i></a>
+    
+  </div>
+  <div id="lin1l">
+    <a class="n-link2"  href="Home page.html">Home</a>
+    <a class="n-link2"  href="products.html">Shop</a>
+    <a class="n-link2"  href="#">About</a>
+    <a class="n-link2" onclick="latest()" >Latest</a>
+      <div id="latest">
+        <a class="n-link2" href="products.html">Product List</a>
+        <a class="n-link2" href="product.html">Product Details</a>
+      </div>
+    <a class="n-link2" onclick="blog()" >Blog</a>  
+      <div id="blog">
+        <a class="n-link2" href="#">Blog</a>
+        <a class="n-link2" href="#">Blog Details</a>
+      </div>
+    <a class="n-link2" onclick="pages()">Pages</a>  
+      <div id="pages">
+        <a class="n-link2"  href="login.html">login</a>
+        <a class="n-link2"  href="cart.html">Cart</a>
+        <a class="n-link2"  href="#">Element</a>
+        <a class="n-link2"  href="#">Confirmation</a>
+        <a class="n-link2"  href="#">Product Checkout</a>
+      </div>
+    <a class="n-link2"  href="#">Contact</a>
+  </div>
+    
+  </div>
+</div>
+
+
+ <!--banner-->
+<div class="ban">
+  <h2>Login</h2>
+</div>
+
+ <!--form-->
+<div class="con-log">
+  <div class="create">
+    <div class="create-in">
+    <h2>New to our Shop?</h2>
+    <p>There are advances being made in science and technology
+      everyday, and a good example of this is the</p>
+      <a href="registration .html">Create an Account</a>
+    </div>
+
+  </div>
+  <div class="login">
+    <div class="login-in">
+      <h3>Welcome Back ! <br>
+        Please Sign in now</h3>
+        <input type="text" class="form-control" id="name" name="name" value="" placeholder="Username">
+        <input type="password" class="form-control" id="password" name="password" value="" placeholder="Password">
+       <div class="ck">
+        <input type="checkbox"  id="f-option">
+        <label for="f-option">Remember me</label>
+      </div>
+      <button type="submit" value="submit" class="btn_3">
+        log in
+        </button>
+        <a class="lost_pass" href="#">forget password?</a>
+    </div>
+  </div>
+</div>
+
+
+<!--up button-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-90deg-up"></i></button>
+
+<!--footer-->
+
+<div class="footer">
+  <div class="lists">
+    <ul>
+    <a style=" float:left" href="#"><img src="data:image/webp;base64,UklGRhACAABXRUJQVlA4TAQCAAAvg8AFEPcgEEhC2V90hfkfEIEAYcF/pAQJMJoGDmDZth0lug+xiQ0S1ABCzvznaRKwsP4j+j8B+o0DvLXlqy1strMw+v/oteil/0ghlr21uXtt5w0Udh/+z6XNbK+0M6u2NAFB2zttKwCzfsC9tvN22gg8fsG2B2DQP/cAYvtzzpVZfZF0qc3qS+Z2MrPDdY0ZeKnQB2AKRc83zK9M1wPjY52r2VHS3nY6WdLJWdIlnKVPywLwVmEgPfmPN5MCyT4RSPffqS6Wrq6WvUtylj8t8RHwBYH83Cbik6yXFMj3X7HdvpHOZlbVN+lqZhepMbPDXXJm1iwYgKC8B8ZWegFDgnl6SI8IQfLA2EoB8N/RZ21W3SXpYHaWTmYHSXI7s2PZA5hVOMCgzyfQJmIrSX2ih1GSwgzDV1ziaHbSp0tUZo2ak5lVTuUz8CiJ0CY0wjMR9PlKRPDyPRCDvnLLXYrMdpeDmR0uWhiAQaUwKx0gJLoimJ8jMD6VX6nJXRd8ukZLfYTYfssv+AxepX+pMqudVhyAl4ojtKkRnitEmIIW/qWT2UErPoC3ygfoEx3QrtDDqO00Zna4S5f6VjSzNKgDhlZ6RRi0ggfGVnpO3RbkLFs1BYEV1JOf2zUUyEa/BbmMnXM+rqI+M3mtopDhtQk1zsx27q78m3X06IEpKLmCfADm0Eo=" alt=""></a>
+    </br><br><br>
+    <p style="    color: #868c98;
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding-right: 50px;
+    line-height: 1.8;">Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.</p>
+    </ul>
+</div>
+  <div class="lists">
+    <div class="footer-tittle">
+      
+      <ul>
+        <li><h4>Quick Links</h4></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#"> Offers &amp; Discounts</a></li>
+      <li><a href="#"> Get Coupon</a></li>
+      <li><a href="#"> Contact Us</a></li>
+      </ul>
+      </div>
+  </div>
+  <div class="lists">
+    <div class="footer-tittle">
+      
+      <ul>
+        <h4>New Products</h4>
+      <li><a href="#">Woman Cloth</a></li>
+      <li><a href="#">Fashion Accessories</a></li>
+      <li><a href="#"> Man Accessories</a></li>
+      <li><a href="#"> Rubber made Toys</a></li>
+      </ul>
+      </div>
+  </div>
+  <div class="lists">
+    <div class="footer-tittle">
+      
+      <ul>
+        <h4>Support</h4>
+      <li><a href="#">Frequently Asked Questions</a></li>
+      <li><a href="#">Terms &amp; Conditions</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Report a Payment Issue</a></li>
+      </ul>
+      </div>
+  </div>
+</div>
+<div class="end">
+  <p style="    color: #888888;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 20px;
+  font-family: 'Roboto','sans-serif';
+  float: left;
+
+  ">
+    Copyright ©2021 All rights reserved | This template is made with <i class="bi bi-heart-fill" style="color: red;"></i> by <spam style="color: red;">M.Umer Waqar</spam>
+    </p>
+
+    <div style="float: right; display: flex; justify-content: space-evenly; width: 200px;">
+      <div class="ro"><i class="bi bi-twitter"></i></div>
+      <div class="ro"><i class="bi bi-facebook"></i></div>
+      <div class="ro"><i class="bi bi-behance"></i></div>
+      <div class="ro"><i class="bi bi-globe2"></i></div>
+    </div>
+</div>  
+</body>
+<script src="js/script.js"></script>
+</html>
