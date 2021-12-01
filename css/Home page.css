@@ -1516,7 +1516,18 @@ float: right;
     .reg-form input[type='number']{
         -moz-appearance: textfield;
     }
-    .reg-form input[type=text],[type=password]:focus {
+   #password, #repassword{
+    border: 0px solid transparent;
+        border-bottom: 1px solid #ddd;
+        display: block;
+        width: 100%;
+        height: calc(2.25rem + 2px);
+        padding: 1.5rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        font-family: inherit;
+    }
+    .reg-form input:focus {
     border-color: transparent;
     border-bottom: 1px solid #ddd;
     outline: 0;
