@@ -1422,7 +1422,15 @@ float: left;
                                                                                                
                                                                                             /*products*/
 
-
+#con-item1{
+  display: flex;
+}
+#con-item2{
+  display: none;
+}
+#con-item3{
+  display: none;
+}
 .con-items{
     margin-top: 10px;
 }
