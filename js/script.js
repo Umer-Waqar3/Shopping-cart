@@ -2,6 +2,7 @@ window.onscroll = function() {scrollFunction()};
 var navScroll = document.getElementById("navbar");
 mybutton = document.getElementById("myBtn");
 function scrollFunction() {
+
 if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
   navScroll.style.position = "sticky";
   
