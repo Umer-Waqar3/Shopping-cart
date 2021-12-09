@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>checkout</title>
+  <title>orderlist</title>
   <link rel="icon" type="image/x-icon" href="images/93d910850bf76debe69a0ad7a5a76141--art-students-performing-arts.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
 </head>
 <body>
-   
    <!--Nav bar-->
+
 
    <div id="navbar">
     <div class="nav2">
@@ -98,167 +98,47 @@
 </div>
 
 
+
  <!--banner-->
 <div class="ban">
-  <h2>checkout</h2>
+  <h2>Order List</h2>
 </div>
 
-<div class="check-top">
-    <div class="ct1">
-        <h2>
-            Returning Customer?
-            <a href="login.html">Click here to login</a>
-            </h2>
 
-            <p>
-                If you have shopped with us before, please enter your details in the
-                boxes below. If you are a new customer, please proceed to the
-                Billing &amp; Shipping section.
-                </p>   
-    <div class="ct11">
-        <input type="text" placeholder="Username or Email *" required size="25">
-        <input type="password" placeholder="Password *" required size="25">
-     <div >   
-    <button type="submit" value="submit" class="btn_3">
-        log in
-        </button>
-        <input type="checkbox" id="f-option">
-        <label for="f-option">Remember me</label>
-        <div class="ct111" >
-            <a class="lost_pass" href="#">Lost your password?</a>
-        </div>
-
+ <!--orderlist-->
+<div class="grid-container">
+    <div class="grid-item1">Product</div>
+    <div class="grid-item1" id="gi2">Price</div>
+    <div class="grid-item1 " id="gi1">Quantity</div>  
+    <div class="grid-item1" id="gi2">Total</div>
+    <div class="grid-item2">
+        <img src="images/xchoce_watch1.png.pagespeed.ic.JqdVtLwPVf.png" alt="no img">
+        <div class="te"><span>Minimalistic shop for multipurpose use</span></div>
     </div>
-</div>
-<h2>
-  Have a coupon? 
-    <a href="login.html">Click here to enter your code</a>
-    </h2>
-    <input type="text" id="cci" placeholder="Enter coupon code" required size="45">
-    </br>
-    <a class="btn-ac">Apply Coupon </a>
+    <div class="grid-item2" id="gi1" ><p>$360.00</p></div>  
+    <div class="grid-item2" id="gi1">
+        <p class="quantity">2</p>
+            
     </div>
-
-    
-</div>
-
-<div class="ct2">
-    <h3>Billing Details</h3>
-   
-</div>
-<div class="ct3">
-    <div class="ct31">
-        <input type="text" id="cti" placeholder="First name *" required size="30">
-        <input type="password" id="cti2" placeholder="Last name *" required size="30">
-        <input type="password" id="cti3" placeholder="Company name" required size="70">
-        <input type="text" id="cti" placeholder="Phone number *" required size="30">
-        <input type="password" id="cti2" placeholder="Email Address *" required size="30">
-        <select class="form-select " id="cti4">
-            <option>Country</option>
-            <option>Country</option>
-            <option>Country</option>
-        </select>
-        <input type="text"  id="cti5" placeholder="Address line 01 *" required size="70">
-        <input type="text"  id="cti5" placeholder="Address line 02 *" required size="70">
-        <input type="text"  id="cti5" placeholder="Town/City *" required size="70">
-        <select class="form-select " id="cti4">
-            <option>District</option>
-            <option>District</option>
-            <option>District</option>
-        </select>
-        <input type="password" id="cti3" placeholder="Postcode/ZIP" required size="70">
-        <br>
-        <input type="checkbox" id="f-option2">
-        <label for="f-option2">Create an account?</label>
-        <h3>Shipping Details</h3>
-        <input type="checkbox" id="f-option2">
-        <label for="f-option2">Ship to a different address?</label>
-        <br>
-        <textarea  name="message" id="message" rows="1" placeholder="Order Notes"></textarea>
+    <div class="grid-item2" id="gi1"><p>$720.00</p></div>
+    <div class="grid-item2">
+        <img src="images/xcard2.png.pagespeed.ic.5-GrN3n-8b.png" alt="no img">
+        <div class="te"><span>Minimalistic shop for multipurpose use</span></div>
     </div>
-    <div class="ct32">
-        <h2>Your Order</h2>
-        
-            <li>
-            <a href="#">Product
-                
-            <span class="last">Total</span>
-            </a>
-            </li>
-            <li>
-            <a href="#">Fresh Blackberry
-            <span class="middle">x 02</span>
-            <span class="last">$720.00</span>
-            </a>
-            </li>
-            <li>
-            <a href="#">Fresh Tomatoes
-            <span class="middle">x 02</span>
-            <span class="last">$720.00</span>
-            </a>
-            </li>
-            <li>
-            <a href="#">Fresh Brocoli
-            <span class="middle">x 02</span>
-            <span class="last">$720.00</span>
-            </a>
-            </li>
-            <div class="list_2">
-                <li>
-                <a href="#">Subtotal
-                <span>$2160.00</span>
-                </a>
-                </li>
-                <li>
-                <a href="#">Shipping
-                <span>Flat rate: $50.00</span>
-                </a>
-                </li>
-                <li>
-                <a href="#">Total
-                <span>$2210.00</span>
-                </a>
-                </li>
-            </div>
-
-            <div class="payment_item">
-                <div class="radion_btn">
-                <input type="radio" id="f-option5" name="selector">
-                <label for="f-option5">Check payments</label>
-                <div class="check"></div>
-                </div>
-                <p>
-                Please send a check to Store Name, Store Street, Store Town,
-                Store State / County, Store Postcode.
-                </p>
-                </div>
-
-            <div class="payment_item">
-                <div class="radion_btn">
-                <input type="radio" id="f-option5" name="selector">
-                <label for="f-option5">paypal</label>
-                <div class="check"></div>
-                </div>
-                <p>
-                Please send a check to Store Name, Store Street, Store Town,
-                Store State / County, Store Postcode.
-                </p>
-                </div>
-                <div class="creat_account">
-                    <input type="checkbox" id="f-option4" name="selector">
-                    <label for="f-option4">I’ve read and accept the </label>
-                    <a href="#">terms &amp; conditions*</a>
-                    </div>
-                    <button type="submit" value="submit" class="btn_3">
-                        PROCEED TO PAYPAL
-                        </button>
-           
+    <div class="grid-item2" id="gi1" ><p>$360.00</p></div>  
+    <div class="grid-item2" id="gi1">
+        <p class="quantity">2</p>
     </div>
-</div>
+    <div class="grid-item2" id="gi1"><p>$720.00</p></div>
+    <div class="olp"></div>
+  </div>
+
+
+
 <!--up button-->
 
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-90deg-up"></i></button>
-  <!--footer-->
+<!--footer-->
 
 <div class="footer">
   <div class="lists">
@@ -321,7 +201,7 @@
   ">
     Copyright ©2021 All rights reserved | This template is made with <i class="bi bi-heart-fill" style="color: red;"></i> by <spam style="color: red;">M.Umer Waqar</spam>
     </p>
-
+ 
     <div style="float: right; display: flex; justify-content: space-evenly; width: 200px;">
       <div class="ro"><i class="bi bi-twitter"></i></div>
       <div class="ro"><i class="bi bi-facebook"></i></div>
