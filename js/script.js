@@ -3,13 +3,35 @@ var navScroll = document.getElementById("navbar");
 mybutton = document.getElementById("myBtn");
 function scrollFunction() {
 
-if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-  navScroll.style.position = "sticky";
-  
-  navScroll.style.top = "0px";
-} else {
-  navScroll.style.top = "-180px";
-  
+if (window.innerWidth>800){
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    navScroll.style.position = "sticky";
+    
+    navScroll.style.top = "0px";
+  } else {
+    navScroll.style.top = "-180px";
+    
+  }
+}
+else if (window.innerWidth>500){
+  if (document.body.scrollTop > 320 || document.documentElement.scrollTop > 320) {
+    navScroll.style.position = "sticky";
+    
+    navScroll.style.top = "0px";
+  } else {
+    navScroll.style.top = "-180px";
+    
+  }
+}
+else{
+  if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
+    navScroll.style.position = "sticky";
+    
+    navScroll.style.top = "0px";
+  } else {
+    navScroll.style.top = "-180px";
+    
+  }
 }
 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
